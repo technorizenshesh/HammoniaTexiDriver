@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.masarcardriver">
+    package="com.teximobilitydriver">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -17,7 +17,7 @@
 
 
     <application
-        android:name="com.masarcardriver.helper.App"
+        android:name="com.teximobilitydriver.helper.App"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
         android:requestLegacyExternalStorage="true">
 
 
-        <activity android:name="com.masarcardriver.activity.SplashAct"
+        <activity android:name="com.teximobilitydriver.activity.SplashAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked">
             <intent-filter>
@@ -38,118 +38,118 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.masarcardriver.activity.SelectLangAct"
+        <activity android:name="com.teximobilitydriver.activity.SelectLangAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
-        <activity android:name="com.masarcardriver.activity.LoginAct"
+        <activity android:name="com.teximobilitydriver.activity.LoginAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
-        <activity android:name="com.masarcardriver.activity.RegisterAct"
+        <activity android:name="com.teximobilitydriver.activity.RegisterAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
-        <activity android:name="com.masarcardriver.activity.ForgotPasswordAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-
-        <activity android:name="com.masarcardriver.activity.AddVehicleAct"
+        <activity android:name="com.teximobilitydriver.activity.ForgotPasswordAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.AddBankAct"
+        <activity android:name="com.teximobilitydriver.activity.AddVehicleAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.HomeAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-        <activity android:name="com.masarcardriver.activity.ProfileAct"
+        <activity android:name="com.teximobilitydriver.activity.AddBankAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.NeedHelpAct"
+        <activity android:name="com.teximobilitydriver.activity.HomeAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
-        <activity android:name="com.masarcardriver.activity.WalletAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-        <activity android:name="com.masarcardriver.activity.RideHistoryAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-        <activity android:name="com.masarcardriver.activity.TripAct"
+        <activity android:name="com.teximobilitydriver.activity.ProfileAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.RiderFeedbackAct"
+        <activity android:name="com.teximobilitydriver.activity.NeedHelpAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+        <activity android:name="com.teximobilitydriver.activity.WalletAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+        <activity android:name="com.teximobilitydriver.activity.RideHistoryAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+        <activity android:name="com.teximobilitydriver.activity.TripAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.EmergencyAct"
+        <activity android:name="com.teximobilitydriver.activity.RiderFeedbackAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.HeatViewAct"
+        <activity android:name="com.teximobilitydriver.activity.EmergencyAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.TrackAct"
+        <activity android:name="com.teximobilitydriver.activity.HeatViewAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.PaymentSummary"
+        <activity android:name="com.teximobilitydriver.activity.TrackAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.TripEndAct"
+        <activity android:name="com.teximobilitydriver.activity.PaymentSummary"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.ManageVehicleAct"
+        <activity android:name="com.teximobilitydriver.activity.TripEndAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.ManageDocumentAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-        <activity android:name="com.masarcardriver.activity.TripStatisticsAct"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
-
-        <activity android:name="com.masarcardriver.activity.BankDetailAct"
+        <activity android:name="com.teximobilitydriver.activity.ManageVehicleAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.NotificationAct"
+        <activity android:name="com.teximobilitydriver.activity.ManageDocumentAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+        <activity android:name="com.teximobilitydriver.activity.TripStatisticsAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+        <activity android:name="com.teximobilitydriver.activity.BankDetailAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.EditProfileAct"
+        <activity android:name="com.teximobilitydriver.activity.NotificationAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
 
-        <activity android:name="com.masarcardriver.activity.ChangePasswordAct"
+        <activity android:name="com.teximobilitydriver.activity.EditProfileAct"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="locked"/>
+
+
+        <activity android:name="com.teximobilitydriver.activity.ChangePasswordAct"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="locked"/>
 
@@ -160,7 +160,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.masarcardriver.provider"
+            android:authorities="com.teximobilitydriver.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -172,12 +172,12 @@
 
 
         <service
-            android:name="com.masarcardriver.helper.MyService"
+            android:name="com.teximobilitydriver.helper.MyService"
             android:enabled="true"
             android:exported="true" />
 
         <service
-            android:name=".helper.MyFirebaseMessagingService"
+            android:name="com.teximobilitydriver.helper.MyFirebaseMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

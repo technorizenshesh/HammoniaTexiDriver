@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Masar Car Driver</string>
+    <string name="app_name" translatable="false">Texi Mobility Driver</string>
     <string name="google_maps_key" translatable="false">AIzaSyDzT0oICRA3ImAPw8CwoUi0TncNZA_2Gdg</string>
     <string name="googlekey_other" translatable="false">AIzaSyDzT0oICRA3ImAPw8CwoUi0TncNZA_2Gdg</string>
     <string name="log_in_now">Log In Now</string>

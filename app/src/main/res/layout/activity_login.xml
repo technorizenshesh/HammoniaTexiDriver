@@ -41,7 +41,7 @@
                         android:id="@+id/labelEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/email"
+                        android:hint="@string/mobile_number"
                         app:boxStrokeWidth="0dp"
                         app:boxStrokeWidthFocused="0dp"
                         app:hintTextColor="@color/gray"
@@ -54,7 +54,7 @@
                             android:backgroundTint="@color/white"
                             android:fontFamily="@font/poppins_medium"
                             android:textSize="@dimen/_12sdp"
-                            android:inputType="textEmailAddress"
+                            android:inputType="phone"
                             android:imeOptions="actionNext"
                             />
                     </com.google.android.material.textfield.TextInputLayout>

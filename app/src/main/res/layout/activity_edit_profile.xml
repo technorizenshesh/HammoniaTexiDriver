@@ -52,41 +52,6 @@
                         android:image="@{user.image}"/>
 
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_20sdp"
-                        android:background="@drawable/rounded_white_bg"
-                        android:elevation="@dimen/_2sdp">
-
-                        <com.google.android.material.textfield.TextInputLayout
-                            android:id="@+id/surname_edit_text"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:backgroundTint="@color/white"
-                            android:hint="@string/sur_name"
-                            android:padding="@dimen/_5sdp"
-                            app:boxStrokeWidth="0dp"
-                            app:boxStrokeWidthFocused="0dp"
-                            app:hintTextColor="@color/gray">
-
-                            <EditText
-                                android:id="@+id/edSurname"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
-                                android:fontFamily="@font/poppins_medium"
-                                android:imeOptions="actionNext"
-                                android:inputType="text"
-                                android:text="@{user.lastName}"
-                                android:textSize="@dimen/_12sdp" />
-
-                        </com.google.android.material.textfield.TextInputLayout>
-
-
-
-                    </RelativeLayout>
-
 
                     <RelativeLayout
                         android:layout_width="match_parent"

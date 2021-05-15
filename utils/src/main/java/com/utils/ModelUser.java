@@ -16,12 +16,10 @@ public class ModelUser {
     @SerializedName("card_id")
     @Expose
     private Object cardId;
-    @SerializedName("first_name")
+    @SerializedName("user_name")
     @Expose
     private String firstName;
-    @SerializedName("last_name")
-    @Expose
-    private String lastName;
+
     @SerializedName("phone_code")
     @Expose
     private String phoneCode;
@@ -187,13 +185,7 @@ public class ModelUser {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 
     public String getPhoneCode() {
         return phoneCode;

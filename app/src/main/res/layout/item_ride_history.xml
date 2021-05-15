@@ -4,7 +4,7 @@
     <data>
         <variable
             name="data"
-            type="com.masarcardriver.model.ModelRideHistory.Result" />
+            type="com.teximobilitydriver.model.ModelRideHistory.Result" />
     </data>
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

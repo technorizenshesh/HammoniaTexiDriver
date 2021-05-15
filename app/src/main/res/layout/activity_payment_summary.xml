@@ -4,7 +4,7 @@
 <data>
     <variable
         name="payment"
-        type="com.masarcardriver.model.ModelPayment" />
+        type="com.teximobilitydriver.model.ModelPayment" />
 </data>
     <RelativeLayout
         android:layout_width="match_parent"

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TropikVTCDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/TropikVTCDriver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TropikVTCDriver.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TropikVTCDriver.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/TropikVTCDriver.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/TropikVTCDriver.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TexiMobilityDriver.iml" filepath="$PROJECT_DIR$/.idea/modules/TexiMobilityDriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TexiMobilityDriver.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TexiMobilityDriver.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/TexiMobilityDriver.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/TexiMobilityDriver.utils.iml" />
     </modules>
   </component>
 </project>

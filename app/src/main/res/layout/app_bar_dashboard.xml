@@ -97,7 +97,7 @@
                         android:id="@+id/tvName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@{driver.firstName + ' '+ driver.lastName}"
+                        android:text="@{driver.firstName}"
                         android:textSize="@dimen/_13sdp"
                         android:textColor="@color/white"
                         android:fontFamily="@font/poppins_regular"

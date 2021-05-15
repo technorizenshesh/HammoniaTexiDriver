@@ -51,7 +51,7 @@
                         android:fontFamily="@font/poppins_semibold"
                         android:textSize="@dimen/_15sdp"
                         android:layout_below="@+id/userImg"
-                        android:text="@{driver.firstName + ' '+ driver.lastName}"
+                        android:text="@{driver.firstName}"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="@dimen/_30sdp"
                         android:layout_marginRight="@dimen/_20sdp"
